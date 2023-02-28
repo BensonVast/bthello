@@ -33,7 +33,7 @@ class Config(object):
 
     ################redis配置##################
     # redis 地址
-    REDIS_HOST = "192.168.10.33"
+    REDIS_HOST = "linux.vast.run"
     # redis 端口
     REDIS_PORT = 6379
     # redis 库编号
