@@ -33,12 +33,12 @@ class Config(object):
 
     ################redis配置##################
     # redis 地址
-    REDIS_HOST = "linux.vast.run"
+    REDIS_HOST = "127.0.0.1"
     # redis 端口
     REDIS_PORT = 6379
     # redis 库编号
     REDIS_DB = 10
     # redis 密码
-    REDIS_PASSWORD = 'poiuy09876'
+    REDIS_PASSWORD = ''
     # redis 连接池最大连接量
     REDIS_MAX_CONNECTION = 20
